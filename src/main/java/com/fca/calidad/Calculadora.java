@@ -20,8 +20,7 @@ public class Calculadora{
     }
     public  float suma(int operador1, int operador2) {
         resultado=operador1+operador2;
-        System.out.println("La suma de "+operador1+" + "+operador2+" es "+resultado);
-        return resultado;
-    }
-    
+       System.out.println("La suma de "+operador1+" + "+operador2+" es "+resultado);
+       return "hola" + resultado;
+   
 }
